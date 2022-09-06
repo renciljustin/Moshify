@@ -336,6 +336,10 @@ a {
   color: #fff;
 }
 
+.card--primary .badge--primary {
+  background-color: #126de4;
+}
+
 .card--secondary .badge--secondary {
   background-color: #02cdf1;
 }
@@ -383,7 +387,7 @@ a {
   font-size: 1.8rem;
   padding: 0.5rem 2rem 0.5rem 1rem;
   position: absolute;
-  right: -15%;
+  right: -8rem;
   top: 0;
   transform-origin: top left;
   transform: rotate(90deg);
@@ -404,6 +408,22 @@ a {
 
   .plan__description {
     font-size: 1.7rem;
+  }
+
+  .plan--popular {
+    transform: scale(1.1);
+  }
+
+  .plan {
+    transition: transform 0.2s;
+  }
+
+  .plan:hover {
+    transform: scale(1.05);
+  }
+
+  .plan--popular:hover {
+    transform: scale(1.15);
   }
 }
 
@@ -761,4 +781,14 @@ a {
   .block-domain__prices {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
+}
+
+/* Plans Block */
+.block-plans .grid {
+  gap: 4rem;
+}
+
+.block-plans .card {
+  margin: 0 auto;
+  max-width: 500px;
 }
