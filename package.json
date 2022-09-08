@@ -1,0 +1,13 @@
+{
+  "name": "aerariu",
+  "version": "1.0.0",
+  "description": "This is a test website",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RJ Evangelista",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
